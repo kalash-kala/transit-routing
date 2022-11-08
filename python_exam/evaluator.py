@@ -2,8 +2,12 @@
 CiSTUP Internship: Round 1
 WARNING: DO NOT CHANGE THIS FILE.
 """
+import os
+import sys
+import numpy as np
+import pandas as pd
+from heapq import heapify,heappop,heappush
 from time import time
-
 
 def evaluate_Q1(sample_input1):
     marks = 0
